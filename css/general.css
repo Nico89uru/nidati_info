@@ -286,19 +286,36 @@ p{
     border: 2px solid var(--negro);
     padding: 5px;
 }
-@media (max-width: 440px){
-    .nav__empleo{
-        display: none;
-    }
+@media (min-width: 280px){
     .main__empleo{
-        margin: 80px auto;
+        width: 95%;
+    }
+}
+@media (max-width: 440px){
+    .main__empleo{
+        width: 95%;
+        margin: 1rem auto;
+    }
+    .p__empleo{
+        width: 100%;
+        text-align: justify;
+    }
+}
+@media (min-width: 540px){
+    .main__empleo{
+        width: 95%;
+    }
+    .p__empleo{
+        width: 100%;
+        text-align: justify;
+    }
+}
+@media (min-width: 701px){
+    .main__empleo{
+        width: 60%;
     }
 }
 @media (max-width: 800px){
-    .main__empleo{
-        width: 60%;
-        margin: 80px auto;
-    }
     .nav__empleo{
         display: none;
     }
