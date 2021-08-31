@@ -5,11 +5,13 @@
     --azulClaro: #3b5998;
     --grisOscuro: #292929;
     --grisClaro: rgb(201, 196, 196);
+    --verde: #5b9e4d;
 
     --fuente1: 'Rampart One', 'cursiva';
     --fuente2: 'Lobster', 'cursiva';
     --fuente3: 'Open Sans', sans-serif;
     --fuente4:'Sriracha', 'cursiva';
+    --fuente5:'ZCOOL KuaiLe', 'cursiva';
 }
 /* General */
 a{
@@ -222,6 +224,9 @@ p{
 .main__negocio{
     width: 75%;
     margin: 100px auto;
+}
+.h1__negocio{
+    font-family: var(--fuente5);
 }
 .li__negocio{
     padding-left: 1rem;
